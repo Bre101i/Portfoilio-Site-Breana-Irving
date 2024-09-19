@@ -1,0 +1,147 @@
+body {
+    background-color: #E9E9D9; 
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #D4A373
+}
+
+#hero-background {
+    background-color: #D4A373;
+    color: #000000 !important
+}
+
+#footer-background {
+    background-color: #D4A373
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 1.5;
+    font-style: bold;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.5;
+    font-style: bold;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 1.5;
+    font-style: bold;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: bold;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+  }
+
+
+  a {
+    color: #D4A373;
+  }
+
+  a:visited { /* visited link */
+    color: #D4A373;
+  }
+  a:hover {
+    color: #994C30;
+  }
+
+  a:hover {
+    color: #994C30;
+  }
+  a:active { /* selected link */
+    color: #FEFAE0;
+  }
+
+  a:focus {
+    color: #994C30;
+  }
+
+    #primary-button { /* This stays at the bottom of the document. */
+    display: inline-block;
+    background-color: #CCD5AE;
+    color: #994C30 !important;
+    font-weight: 400;
+    font-size: 16x;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-bottom: 2px solid #994c30;
+    transition: 0.2s opacity;
+    text-decoration: none;
+    }
+    .primary-button:hover {
+        opacity: 0.8; /* Reduces the opacity of the button to 80% */
+        text-decoration: none;
+    }
+    .primary-button:active { /* selected link */
+        color: #FEFAE0;
+      }
+    .primary-button:focus {
+        color: #FEFAE0;
+        text-decoration: underline;
+    }
+
+    .secondary-button { /* This stays at the bottom of the document. */
+        display: inline-block;
+        background-color: #FFFFFF;
+        color: #994C30;
+        font-weight: 400;
+        font-size: 16x;
+        padding: 10px 20px;
+        border-radius: 3px;
+        border-bottom: 2px solid #994c30;
+        transition: 0.2s opacity;
+        text-decoration: none;
+        }
+        .secondary-button:hover {
+            opacity: 0.8; /* Reduces the opacity of the button to 80% */
+            text-decoration: none;
+        }
+        .secondary-button:active { /* selected link */
+            color: #CCD5AE;
+          }
+        .secondary-button:focus {
+            color: #CCD5AE;
+            text-decoration: underline;
+        }
+
+        .tertiary-button { /* This stays at the bottom of the document. */
+            display: inline-block;
+            background-color: #000000;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 16x;
+            padding: 10px 20px;
+            border-radius: 3px;
+            border-bottom: 2px solid #994c30;
+            transition: 0.2s opacity;
+            text-decoration: none;
+            }
+        .tertiary-button:hover {
+                opacity: 0.8; /* Reduces the opacity of the button to 80% */
+                text-decoration: none;
+            }
+        .tertiary-button:active { /* selected link */
+                color: #FFFFFF;
+              }
+        .tertiary-button:focus {
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
